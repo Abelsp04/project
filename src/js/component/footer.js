@@ -1,10 +1,113 @@
 import React, { Component } from "react";
 
 export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
-		<p>
-			Made with <i className="fa fa-heart text-danger" /> by{" "}
-			<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
-		</p>
+	<footer className="footer ">
+		<div className="footer-links">
+			<div className="footer-container">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Tittle One</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Tittle One</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Tittle One</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Tittle One</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+					<li>
+						<a href="#">Blockchain</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</footer>
 );
