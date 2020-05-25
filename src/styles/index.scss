@@ -1,3 +1,44 @@
 /* 
     General Styles
 */
+
+* {box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    }
+    .footer .footer-links{
+   background: #1c100b;
+    color:white;
+    font-size:12px;
+    padding: 35px 0;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.footer-container ul{
+     
+    margin: 0 auto;
+}
+.footer-container ul li,a {
+        line-height: 2.8;
+        color: grey;
+        
+    }
+  .footer-container ul a:hover{
+      color: gold;
+  }
+  .footer .footer-bar{
+    background: #1c100b;
+    color:grey;
+    font-size: 8px;
+    font-family: 'Comic Neue', cursive;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top:1px double gold;}

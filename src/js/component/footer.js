@@ -109,5 +109,8 @@ export const Footer = () => (
 				</ul>
 			</div>
 		</div>
+		<div className="footer-bar">
+			<h5>Technews Copyright</h5>
+		</div>
 	</footer>
 );
